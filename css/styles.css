@@ -1,5 +1,5 @@
 /*
-Author: Maria Cruz
+Author: TG 
 Date: Current Date
 File Name: styles.css
 */
@@ -9,6 +9,9 @@ body, header, nav, main, footer, img, h1 {
     margin: 0;
     padding: 0;
     border: 0;
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 /* Style rule for images */
@@ -16,17 +19,27 @@ img {
     max-width: 100%;
     display: block;
 }
+/*Style rules for modile viewpoint */
+
+
+/* Hide tab-desk class*/
+
+.tab-desk {
+    display: none;
+}
 
 /* Style rules for header content */
 header {
     text-align: center;
-    font-size: 3em;
+    font-size: 1.5em;
     color: #373684;
 }
 
+/*
 header h1 {
     font-style: italic;
 }
+*/
 
 /* Style rules for navigation area */
 nav {
@@ -65,7 +78,7 @@ main p {
 }
 
 .action {
-    font-size: 1.75em;
+    font-size: 1.25em;
     color: #373684;
     font-weight: bold;
 }
@@ -84,6 +97,22 @@ main p {
 
 #contact {
     text-align: center;
+}
+
+.tele-link {
+    background-color: #373684;
+    padding: 2%;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.tel-link a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    display: block;
 }
 
 #contact a {
